@@ -1,11 +1,13 @@
 {
-  "compilerOptions": {
-    "module": "es6",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+    "compilerOptions": {
+        "module": "es6",
+        "lib": ["es6", "dom"],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "strict": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
 }
